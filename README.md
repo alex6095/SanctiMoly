@@ -13,4 +13,5 @@ https://ko-nlp.github.io/Korpora/
 
 ## Model
 BTTtoMars : Unfreezed BERT, 120 one-hot encoding, only 10 sets from dataset
+
 XLPtoSun : Unfreezed BERT, 180 one-hot encoding, weighted loss(computed from total data), only 10 sets from dataset
