@@ -19,7 +19,7 @@ Neural network models for predicting the date / topic of news
 
 ### BTTtoMars (Date)
 * 'smallnews' 셋으로 학습
-* 'monologg/distilkobert' 기반 (Parameters frozen)
+* 'monologg/distilkobert' 기반
 * Bert 뒤에 Classifier 추가. 결과가 날짜를 의미하는 120차원의 원핫 벡터가 나오도록 학습했다.
 * Accuracy = 0.3646 @ Epochs 20
 * 체크포인트: /nBTT_20_ckpts/[Checkpoint files](https://drive.google.com/drive/folders/1nTLRIxLlKlmalRsgst69UkH0peiu1xxm?usp=sharing)
@@ -61,5 +61,5 @@ Train시, 모두의 뉴스 데이터셋을 준비해서 Root에 놓는다.
 일부 Notebook에서, Playground 섹션에 입력 가능한 단일 테스트용 코드가 있다.
 
 ## Final Report and Slides
-Report: [Google Docs](https://docs.google.com/document/d/1-tK1bAfYEDU2q-fgNrBIrDbuqOnBG9guC3KSMoJgJ9I/edit?usp=sharing)
+Report: [Google Docs](https://docs.google.com/document/d/1-tK1bAfYEDU2q-fgNrBIrDbuqOnBG9guC3KSMoJgJ9I/edit?usp=sharing)  
 Slides: [Google Slides](https://docs.google.com/presentation/d/149G_MRln6ZPB0GeJdo3sY7ejnp1wZFdv2iS2wJM6Zg8/edit?usp=sharing)
