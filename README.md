@@ -23,6 +23,13 @@ Neural network models for predicting the date / topic of news
 * Bert 뒤에 Classifier 추가. 결과가 날짜를 의미하는 120차원의 원핫 벡터가 나오도록 학습했다.
 * Accuracy = 0.3646 @ Epochs 20
 * 체크포인트: /nBTT_20_ckpts/[Checkpoint files](https://drive.google.com/drive/folders/1nTLRIxLlKlmalRsgst69UkH0peiu1xxm?usp=sharing)
+* 
+### BTTtoMars_Large (Date)
+* 'internetnews' 셋으로 학습
+* 'monologg/distilkobert' 기반
+* Bert 뒤에 Classifier 추가. 결과가 날짜를 의미하는 120차원의 원핫 벡터가 나오도록 학습했다.
+* Accuracy = 0.2613 @ Epochs 23
+* 체크포인트: /nBTT_20_ckpts/[Checkpoint files](https://drive.google.com/drive/folders/1nTLRIxLlKlmalRsgst69UkH0peiu1xxm?usp=sharing)
 
 ### BARDE_Alpha (Date)
 * 'smallnews' 셋으로 학습
