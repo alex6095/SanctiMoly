@@ -67,6 +67,12 @@ Train시, 모두의 뉴스 데이터셋을 준비해서 Root에 놓는다.
 자료를 전처리 하는 방법은 데이터셋 로드 섹션에 `nds_dataset` 초기화 시 `news_transform` / `date_transform` / `topic_transform` 에서 관리한다.  
 일부 Notebook에서, Playground 섹션에 입력 가능한 단일 테스트용 코드가 있다.
 
+## Demos
+* [BTTtoMars](https://huggingface.co/spaces/alex6095/SanctiMolyOH_Cpu)
+* [BARDE_Beta](https://huggingface.co/spaces/SanctiMoly/SanctiMoly-Bart)
+* [FalconNine](https://huggingface.co/spaces/SanctiMoly/SanctiMolyTopic)
+* [BARDE_Beta & FalconNine](https://huggingface.co/spaces/SanctiMoly/SanctiMolyDemo1)
+
 ## Final Report and Slides
 Report: [Google Docs](https://docs.google.com/document/d/1-tK1bAfYEDU2q-fgNrBIrDbuqOnBG9guC3KSMoJgJ9I/edit?usp=sharing)  
 Slides: [Google Slides](https://docs.google.com/presentation/d/149G_MRln6ZPB0GeJdo3sY7ejnp1wZFdv2iS2wJM6Zg8/edit?usp=sharing)
